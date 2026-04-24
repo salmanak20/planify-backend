@@ -1,0 +1,14 @@
+# Force LF line endings for all text files on Linux/Render deployment
+* text=auto eol=lf
+
+# Explicitly ensure Procfile and shell scripts use LF
+Procfile text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.ini text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
