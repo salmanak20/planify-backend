@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic
+# (keep alembic.ini and migrations directory in version control)
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.err.log
+*.out.log
+
+# Firebase credentials (never commit)
+*firebase-adminsdk*.json
+firebase-credentials.json
+service-account*.json
